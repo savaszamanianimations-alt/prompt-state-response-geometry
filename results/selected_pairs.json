@@ -1,0 +1,2946 @@
+{
+  "selection_rule": {
+    "rank": 1,
+    "p_min": 0.8,
+    "p_max": 0.995,
+    "max_delta_logodds": 0.01,
+    "max_delta_entropy": 0.02,
+    "disjoint_pairs": true,
+    "selection_uses_perturbation_results": false
+  },
+  "matching_landscape": {
+    "4-3-1-2": {
+      "0.0025": 6,
+      "0.005": 11,
+      "0.01": 14,
+      "0.02": 35,
+      "0.05": 93
+    },
+    "5-0-5-4": {
+      "0.0025": 13,
+      "0.005": 26,
+      "0.01": 48,
+      "0.02": 77,
+      "0.05": 184
+    },
+    "5-4-1-2": {
+      "0.0025": 9,
+      "0.005": 14,
+      "0.01": 35,
+      "0.02": 78,
+      "0.05": 209
+    },
+    "6-1-4-1": {
+      "0.0025": 3,
+      "0.005": 6,
+      "0.01": 9,
+      "0.02": 21,
+      "0.05": 54
+    },
+    "6-5-3-0": {
+      "0.0025": 12,
+      "0.005": 27,
+      "0.01": 44,
+      "0.02": 89,
+      "0.05": 247
+    }
+  },
+  "pairs": [
+    {
+      "a": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "7c8d1f51bea413a5",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9672388978921176,
+        "p_correct_pct": 96.72388978921175,
+        "logodds": 3.385203615206194,
+        "entropy": 0.14493012649591813,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "3cc91fb522560f9f",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9672456571823543,
+        "p_correct_pct": 96.72456571823544,
+        "logodds": 3.3854169453010385,
+        "entropy": 0.14429066363310644,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00021333009484436616,
+      "delta_entropy": 0.0006394628628116905,
+      "delta_p": 6.759290236746374e-06,
+      "delta_p_pp": 0.0006759290236746374,
+      "selection_score": 0.0003748856331064754,
+      "token_audit": {
+        "structured_only": {
+          "a": 122,
+          "b": 122,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "f4e8cec2c49849e2",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9827120778235159,
+        "p_correct_pct": 98.27120778235158,
+        "logodds": 4.040308058138272,
+        "entropy": 0.08742530425998228,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "ef328b56f3b66cbe",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9827187767948471,
+        "p_correct_pct": 98.2718776794847,
+        "logodds": 4.040702444332005,
+        "entropy": 0.08779000799500411,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00039438619373299844,
+      "delta_entropy": 0.00036470373502182907,
+      "delta_p": 6.698971331209336e-06,
+      "delta_p_pp": 0.0006698971331209336,
+      "selection_score": 0.00048723687032125804,
+      "token_audit": {
+        "structured_only": {
+          "a": 122,
+          "b": 122,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "05b481a81bed7326",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9837626484397068,
+        "p_correct_pct": 98.37626484397069,
+        "logodds": 4.104070416849318,
+        "entropy": 0.0845486069285463,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "7cb535fd2cfe9ea4",
+        "order": [
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9837758319882854,
+        "p_correct_pct": 98.37758319882855,
+        "logodds": 4.1048960749721175,
+        "entropy": 0.0836180022898301,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0008256581227996662,
+      "delta_entropy": 0.0009306046387161926,
+      "delta_p": 1.3183548578599158e-05,
+      "delta_p_pp": 0.0013183548578599158,
+      "selection_score": 0.0010616051696233642,
+      "token_audit": {
+        "structured_only": {
+          "a": 122,
+          "b": 122,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "c723a8b73141ff0d",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9904094217553494,
+        "p_correct_pct": 99.04094217553494,
+        "logodds": 4.637337231261618,
+        "entropy": 0.055675839998148145,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "4-3-1-2",
+        "counts": [
+          4,
+          3,
+          1,
+          2
+        ],
+        "order_hash": "636fa49b428df6dc",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 123,
+        "p_correct": 0.9904164180811925,
+        "p_correct_pct": 99.04164180811925,
+        "logodds": 4.638074061422785,
+        "entropy": 0.05424334792097476,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0007368301611663242,
+      "delta_entropy": 0.0014324920771733862,
+      "delta_p": 6.996325843111606e-06,
+      "delta_p_pp": 0.0006996325843111606,
+      "selection_score": 0.0010967022619204486,
+      "token_audit": {
+        "structured_only": {
+          "a": 122,
+          "b": 122,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_luma": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        },
+        "write_nova": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_kite": {
+          "a": 134,
+          "b": 134,
+          "same": true
+        },
+        "write_4827": {
+          "a": 135,
+          "b": 135,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "87f91b5d276cedda",
+        "order": [
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9843206321796424,
+        "p_correct_pct": 98.43206321796424,
+        "logodds": 4.13960599315687,
+        "entropy": 0.08320915251308163,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "c673128bd21faadc",
+        "order": [
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9843377351144132,
+        "p_correct_pct": 98.43377351144133,
+        "logodds": 4.140714756091576,
+        "entropy": 0.08306601901170742,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0011087629347059647,
+      "delta_entropy": 0.00014313350137420966,
+      "delta_p": 1.7102934770862888e-05,
+      "delta_p_pp": 0.0017102934770862888,
+      "selection_score": 0.0011488220437422328,
+      "token_audit": {
+        "structured_only": {
+          "a": 144,
+          "b": 144,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "db4368b981cf0861",
+        "order": [
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9482351554316334,
+        "p_correct_pct": 94.82351554316334,
+        "logodds": 2.907891283173349,
+        "entropy": 0.20501801672270625,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "59ad8561fd76f3c6",
+        "order": [
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9482878730816441,
+        "p_correct_pct": 94.82878730816441,
+        "logodds": 2.908965802520349,
+        "entropy": 0.20699436512270625,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0010745193470000913,
+      "delta_entropy": 0.0019763483999999942,
+      "delta_p": 5.271765001069184e-05,
+      "delta_p_pp": 0.005271765001069184,
+      "selection_score": 0.0015817858595027628,
+      "token_audit": {
+        "structured_only": {
+          "a": 144,
+          "b": 144,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "a40e982a939b7f79",
+        "order": [
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9826798747359433,
+        "p_correct_pct": 98.26798747359433,
+        "logodds": 4.038414270154227,
+        "entropy": 0.09400698052414963,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "236c6e4406510c1c",
+        "order": [
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9826937251954297,
+        "p_correct_pct": 98.26937251954297,
+        "logodds": 4.039228358869735,
+        "entropy": 0.09045710898404359,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0008140887155079213,
+      "delta_entropy": 0.0035498715401060393,
+      "delta_p": 1.3850459486430822e-05,
+      "delta_p_pp": 0.0013850459486430822,
+      "selection_score": 0.0017050192154060388,
+      "token_audit": {
+        "structured_only": {
+          "a": 144,
+          "b": 144,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "39dee2375e8b91b7",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9897581073296917,
+        "p_correct_pct": 98.97581073296917,
+        "logodds": 4.570974143626053,
+        "entropy": 0.05919639052097694,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-0-5-4",
+        "counts": [
+          5,
+          0,
+          5,
+          4
+        ],
+        "order_hash": "a30b730ba650ff58",
+        "order": [
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 145,
+        "p_correct": 0.9897744725231683,
+        "p_correct_pct": 98.97744725231684,
+        "logodds": 4.572589824070349,
+        "entropy": 0.05843369420513326,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0016156804442957196,
+      "delta_entropy": 0.0007626963158436778,
+      "delta_p": 1.636519347658627e-05,
+      "delta_p_pp": 0.001636519347658627,
+      "selection_score": 0.0018104458216257856,
+      "token_audit": {
+        "structured_only": {
+          "a": 144,
+          "b": 144,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_luma": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        },
+        "write_nova": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_kite": {
+          "a": 156,
+          "b": 156,
+          "same": true
+        },
+        "write_4827": {
+          "a": 157,
+          "b": 157,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "c5b5d604cf6478ed",
+        "order": [
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9361381330856595,
+        "p_correct_pct": 93.61381330856595,
+        "logodds": 2.6850406223256584,
+        "entropy": 0.23791607390332245,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "919a03ad48bf6d38",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9361470579414243,
+        "p_correct_pct": 93.61470579414242,
+        "logodds": 2.685189918245122,
+        "entropy": 0.24022435666253064,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00014929591946355458,
+      "delta_entropy": 0.002308282759208191,
+      "delta_p": 8.9248557647581e-06,
+      "delta_p_pp": 0.00089248557647581,
+      "selection_score": 0.0007285978232067919,
+      "token_audit": {
+        "structured_only": {
+          "a": 138,
+          "b": 138,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "9276d77846e00004",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9652123176510854,
+        "p_correct_pct": 96.52123176510854,
+        "logodds": 3.3230847267973402,
+        "entropy": 0.15191874478613274,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "4b192bec71cd1f13",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9652383064776873,
+        "p_correct_pct": 96.52383064776873,
+        "logodds": 3.323859000924564,
+        "entropy": 0.15170366779124608,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0007742741272238618,
+      "delta_entropy": 0.00021507699488665377,
+      "delta_p": 2.5988826601874848e-05,
+      "delta_p_pp": 0.002598882660187485,
+      "selection_score": 0.000834540582595994,
+      "token_audit": {
+        "structured_only": {
+          "a": 138,
+          "b": 138,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "3b50974e69c06920",
+        "order": [
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.8616218035900713,
+        "p_correct_pct": 86.16218035900714,
+        "logodds": 1.8288259410708108,
+        "entropy": 0.40886786024541205,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "74d1c286cf4a3c77",
+        "order": [
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.861673644822106,
+        "p_correct_pct": 86.1673644822106,
+        "logodds": 1.8292608108881296,
+        "entropy": 0.41059517757411385,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00043486981731888363,
+      "delta_entropy": 0.001727317328701794,
+      "delta_p": 5.184123203461066e-05,
+      "delta_p_pp": 0.005184123203461066,
+      "selection_score": 0.0008796594575029848,
+      "token_audit": {
+        "structured_only": {
+          "a": 138,
+          "b": 138,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "ee60756b9496c4c0",
+        "order": [
+          "Igor Petrov",
+          "Igor Petrov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9826314021198316,
+        "p_correct_pct": 98.26314021198316,
+        "logodds": 4.035570221194618,
+        "entropy": 0.08768787824504619,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "5-4-1-2",
+        "counts": [
+          5,
+          4,
+          1,
+          2
+        ],
+        "order_hash": "9c4d5c41eb0f52eb",
+        "order": [
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 139,
+        "p_correct": 0.9826512779434274,
+        "p_correct_pct": 98.26512779434275,
+        "logodds": 4.036735457353991,
+        "entropy": 0.0880295481251451,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0011652361593732508,
+      "delta_entropy": 0.0003416698800989132,
+      "delta_p": 1.987582359586071e-05,
+      "delta_p_pp": 0.001987582359586071,
+      "selection_score": 0.0012556225852969442,
+      "token_audit": {
+        "structured_only": {
+          "a": 138,
+          "b": 138,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_luma": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        },
+        "write_nova": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_kite": {
+          "a": 150,
+          "b": 150,
+          "same": true
+        },
+        "write_4827": {
+          "a": 151,
+          "b": 151,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "52a7db131c47b720",
+        "order": [
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.989314987219109,
+        "p_correct_pct": 98.9314987219109,
+        "logodds": 4.528170686608192,
+        "entropy": 0.061492671765048815,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "513a5a8d0aa8b137",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9893344179452958,
+        "p_correct_pct": 98.93344179452957,
+        "logodds": 4.530010485334401,
+        "entropy": 0.06196195672965732,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0018397987262090965,
+      "delta_entropy": 0.00046928496460850455,
+      "delta_p": 1.9430726186708824e-05,
+      "delta_p_pp": 0.0019430726186708824,
+      "selection_score": 0.0019619776489079,
+      "token_audit": {
+        "structured_only": {
+          "a": 133,
+          "b": 133,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "5dc9b1d1a0a1a46f",
+        "order": [
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9940164083912942,
+        "p_correct_pct": 99.40164083912943,
+        "logodds": 5.112732722821278,
+        "entropy": 0.038497050738815076,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "aa825a026858ec2b",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9940317441785997,
+        "p_correct_pct": 99.40317441785997,
+        "logodds": 5.115314414441087,
+        "entropy": 0.03815490373382607,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0025816916198095896,
+      "delta_entropy": 0.00034214700498900324,
+      "delta_p": 1.533578730550378e-05,
+      "delta_p_pp": 0.0015335787305503779,
+      "selection_score": 0.0026710623178832164,
+      "token_audit": {
+        "structured_only": {
+          "a": 133,
+          "b": 133,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "ccc3ebeb593e9a4f",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9040941278588241,
+        "p_correct_pct": 90.40941278588241,
+        "logodds": 2.2435662667740175,
+        "entropy": 0.32688706880644425,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "e475680e61525218",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9041068945849071,
+        "p_correct_pct": 90.41068945849071,
+        "logodds": 2.2437135138007704,
+        "entropy": 0.34437234212080137,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0001472470267529502,
+      "delta_entropy": 0.01748527331435712,
+      "delta_p": 1.2766726082968916e-05,
+      "delta_p_pp": 0.0012766726082968916,
+      "selection_score": 0.004521757036862972,
+      "token_audit": {
+        "structured_only": {
+          "a": 133,
+          "b": 133,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "fcff8c38323bd161",
+        "order": [
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Petrov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9893593648452437,
+        "p_correct_pct": 98.93593648452436,
+        "logodds": 4.532377450320354,
+        "entropy": 0.06140319220013567,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-1-4-1",
+        "counts": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "order_hash": "6a94a2f10441671f",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Petrov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 134,
+        "p_correct": 0.9894053807657771,
+        "p_correct_pct": 98.94053807657771,
+        "logodds": 4.536757884368974,
+        "entropy": 0.06079377454753357,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00438043404862043,
+      "delta_entropy": 0.0006094176526020983,
+      "delta_p": 4.6015920533437615e-05,
+      "delta_p_pp": 0.0046015920533437615,
+      "selection_score": 0.004544292441904314,
+      "token_audit": {
+        "structured_only": {
+          "a": 133,
+          "b": 133,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_luma": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        },
+        "write_nova": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_kite": {
+          "a": 145,
+          "b": 145,
+          "same": true
+        },
+        "write_4827": {
+          "a": 146,
+          "b": 146,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "d5d4abf84febb9c8",
+        "order": [
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9931681064915285,
+        "p_correct_pct": 99.31681064915286,
+        "logodds": 4.979298072051975,
+        "entropy": 0.040893901904056576,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "2ad9762747173add",
+        "order": [
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9931706543756706,
+        "p_correct_pct": 99.31706543756707,
+        "logodds": 4.979673646693307,
+        "entropy": 0.04088577743727936,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00037557464133186613,
+      "delta_entropy": 8.124466777219286e-06,
+      "delta_p": 2.5478841421122667e-06,
+      "delta_p_pp": 0.00025478841421122667,
+      "selection_score": 0.000378242729061699,
+      "token_audit": {
+        "structured_only": {
+          "a": 152,
+          "b": 152,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "621e9c64d66df08e",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9938813507980716,
+        "p_correct_pct": 99.38813507980716,
+        "logodds": 5.090276480614449,
+        "entropy": 0.03737575373030138,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "bb9b0a5ff8bf6343",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9938831533155015,
+        "p_correct_pct": 99.38831533155015,
+        "logodds": 5.09057293164264,
+        "entropy": 0.038905670749066555,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0002964510281913135,
+      "delta_entropy": 0.0015299170187651756,
+      "delta_p": 1.8025174298719193e-06,
+      "delta_p_pp": 0.00018025174298719193,
+      "selection_score": 0.0006793809122400754,
+      "token_audit": {
+        "structured_only": {
+          "a": 152,
+          "b": 152,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "b064c31db68d345d",
+        "order": [
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9085676218148913,
+        "p_correct_pct": 90.85676218148913,
+        "logodds": 2.2962696546124377,
+        "entropy": 0.3067611493394407,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "6b5dba74bb84f889",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9086060890956865,
+        "p_correct_pct": 90.86060890956865,
+        "logodds": 2.2967327989890194,
+        "entropy": 0.30577485033406254,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.00046314437658168117,
+      "delta_entropy": 0.0009862990053781662,
+      "delta_p": 3.8467280795262404e-05,
+      "delta_p_pp": 0.0038467280795262404,
+      "selection_score": 0.0007193359481250383,
+      "token_audit": {
+        "structured_only": {
+          "a": 152,
+          "b": 152,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        }
+      }
+    },
+    {
+      "a": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "52f87aea5cb5fb05",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Smith",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9600928711410003,
+        "p_correct_pct": 96.00928711410003,
+        "logodds": 3.1804750444727503,
+        "entropy": 0.167681719258406,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "b": {
+        "family": "6-5-3-0",
+        "counts": [
+          6,
+          5,
+          3,
+          0
+        ],
+        "order_hash": "f890898b3f5605d2",
+        "order": [
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sysoev",
+          "Igor Sokolov",
+          "Igor Sysoev",
+          "Igor Smith"
+        ],
+        "condition": "structured_only",
+        "input_tokens": 153,
+        "p_correct": 0.9601239259074991,
+        "p_correct_pct": 96.01239259074991,
+        "logodds": 3.1812858683862544,
+        "entropy": 0.16770549104768231,
+        "rank": 1,
+        "top1_id": 5837,
+        "top1_text": " Sy",
+        "correct_id": 5837,
+        "correct_text": " Sy"
+      },
+      "delta_logodds": 0.0008108239135040662,
+      "delta_entropy": 2.3771789276316735e-05,
+      "delta_p": 3.105476649878369e-05,
+      "delta_p_pp": 0.0031054766498783692,
+      "selection_score": 0.0008245305524478413,
+      "token_audit": {
+        "structured_only": {
+          "a": 152,
+          "b": 152,
+          "same": true
+        },
+        "repeat_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "repeat_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "repeat_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "copy_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "copy_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_luma": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        },
+        "write_nova": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_kite": {
+          "a": 164,
+          "b": 164,
+          "same": true
+        },
+        "write_4827": {
+          "a": 165,
+          "b": 165,
+          "same": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 362/362 [00:01<00:00, 312.64it/s]
+ANSWER TOKEN PATH: [' Igor', ' Sy', 'so', 'ev']
+FORCE: ' Igor'
+SCORE: ' Sy'
+
+FAMILY 6-1-4-1: sampled 768 / 27720 unique permutations
+  structural audit: {'same_evidence_multiset': True, 'task_char_lengths': [329], 'baseline_prefix_token_lengths': [133], 'same_task_char_length': True, 'same_baseline_token_length': True}
+FAMILY 4-3-1-2: sampled 768 / 12600 unique permutations
+  structural audit: {'same_evidence_multiset': True, 'task_char_lengths': [298], 'baseline_prefix_token_lengths': [122], 'same_task_char_length': True, 'same_baseline_token_length': True}
+FAMILY 5-0-5-4: sampled 768 / 252252 unique permutations
+  structural audit: {'same_evidence_multiset': True, 'task_char_lengths': [363], 'baseline_prefix_token_lengths': [144], 'same_task_char_length': True, 'same_baseline_token_length': True}
+FAMILY 5-4-1-2: sampled 768 / 83160 unique permutations
+  structural audit: {'same_evidence_multiset': True, 'task_char_lengths': [335], 'baseline_prefix_token_lengths': [138], 'same_task_char_length': True, 'same_baseline_token_length': True}
+FAMILY 6-5-3-0: sampled 768 / 168168 unique permutations
+  structural audit: {'same_evidence_multiset': True, 'task_char_lengths': [370], 'baseline_prefix_token_lengths': [152], 'same_task_char_length': True, 'same_baseline_token_length': True}
+
+Baseline checkpoint: 0 existing, 3840 to score
+
+BASELINE family 6-1-4-1
+    structured_only: 16/768
+    structured_only: 32/768
+    structured_only: 48/768
+    structured_only: 64/768
+    structured_only: 80/768
+    structured_only: 96/768
+    structured_only: 112/768
+    structured_only: 128/768
+    structured_only: 144/768
+    structured_only: 160/768
+    structured_only: 176/768
+    structured_only: 192/768
+    structured_only: 208/768
+    structured_only: 224/768
+    structured_only: 240/768
+    structured_only: 256/768
+    structured_only: 272/768
+    structured_only: 288/768
+    structured_only: 304/768
+    structured_only: 320/768
+    structured_only: 336/768
+    structured_only: 352/768
+    structured_only: 368/768
+    structured_only: 384/768
+    structured_only: 400/768
+    structured_only: 416/768
+    structured_only: 432/768
+    structured_only: 448/768
+    structured_only: 464/768
+    structured_only: 480/768
+    structured_only: 496/768
+    structured_only: 512/768
+    structured_only: 528/768
+    structured_only: 544/768
+    structured_only: 560/768
+    structured_only: 576/768
+    structured_only: 592/768
+    structured_only: 608/768
+    structured_only: 624/768
+    structured_only: 640/768
+    structured_only: 656/768
+    structured_only: 672/768
+    structured_only: 688/768
+    structured_only: 704/768
+    structured_only: 720/768
+    structured_only: 736/768
+    structured_only: 752/768
+    structured_only: 768/768
+
+BASELINE family 4-3-1-2
+    structured_only: 16/768
+    structured_only: 32/768
+    structured_only: 48/768
+    structured_only: 64/768
+    structured_only: 80/768
+    structured_only: 96/768
+    structured_only: 112/768
+    structured_only: 128/768
+    structured_only: 144/768
+    structured_only: 160/768
+    structured_only: 176/768
+    structured_only: 192/768
+    structured_only: 208/768
+    structured_only: 224/768
+    structured_only: 240/768
+    structured_only: 256/768
+    structured_only: 272/768
+    structured_only: 288/768
+    structured_only: 304/768
+    structured_only: 320/768
+    structured_only: 336/768
+    structured_only: 352/768
+    structured_only: 368/768
+    structured_only: 384/768
+    structured_only: 400/768
+    structured_only: 416/768
+    structured_only: 432/768
+    structured_only: 448/768
+    structured_only: 464/768
+    structured_only: 480/768
+    structured_only: 496/768
+    structured_only: 512/768
+    structured_only: 528/768
+    structured_only: 544/768
+    structured_only: 560/768
+    structured_only: 576/768
+    structured_only: 592/768
+    structured_only: 608/768
+    structured_only: 624/768
+    structured_only: 640/768
+    structured_only: 656/768
+    structured_only: 672/768
+    structured_only: 688/768
+    structured_only: 704/768
+    structured_only: 720/768
+    structured_only: 736/768
+    structured_only: 752/768
+    structured_only: 768/768
+
+BASELINE family 5-0-5-4
+    structured_only: 16/768
+    structured_only: 32/768
+    structured_only: 48/768
+    structured_only: 64/768
+    structured_only: 80/768
+    structured_only: 96/768
+    structured_only: 112/768
+    structured_only: 128/768
+    structured_only: 144/768
+    structured_only: 160/768
+    structured_only: 176/768
+    structured_only: 192/768
+    structured_only: 208/768
+    structured_only: 224/768
+    structured_only: 240/768
+    structured_only: 256/768
+    structured_only: 272/768
+    structured_only: 288/768
+    structured_only: 304/768
+    structured_only: 320/768
+    structured_only: 336/768
+    structured_only: 352/768
+    structured_only: 368/768
+    structured_only: 384/768
+    structured_only: 400/768
+    structured_only: 416/768
+    structured_only: 432/768
+    structured_only: 448/768
+    structured_only: 464/768
+    structured_only: 480/768
+    structured_only: 496/768
+    structured_only: 512/768
+    structured_only: 528/768
+    structured_only: 544/768
+    structured_only: 560/768
+    structured_only: 576/768
+    structured_only: 592/768
+    structured_only: 608/768
+    structured_only: 624/768
+    structured_only: 640/768
+    structured_only: 656/768
+    structured_only: 672/768
+    structured_only: 688/768
+    structured_only: 704/768
+    structured_only: 720/768
+    structured_only: 736/768
+    structured_only: 752/768
+    structured_only: 768/768
+
+BASELINE family 5-4-1-2
+    structured_only: 16/768
+    structured_only: 32/768
+    structured_only: 48/768
+    structured_only: 64/768
+    structured_only: 80/768
+    structured_only: 96/768
+    structured_only: 112/768
+    structured_only: 128/768
+    structured_only: 144/768
+    structured_only: 160/768
+    structured_only: 176/768
+    structured_only: 192/768
+    structured_only: 208/768
+    structured_only: 224/768
+    structured_only: 240/768
+    structured_only: 256/768
+    structured_only: 272/768
+    structured_only: 288/768
+    structured_only: 304/768
+    structured_only: 320/768
+    structured_only: 336/768
+    structured_only: 352/768
+    structured_only: 368/768
+    structured_only: 384/768
+    structured_only: 400/768
+    structured_only: 416/768
+    structured_only: 432/768
+    structured_only: 448/768
+    structured_only: 464/768
+    structured_only: 480/768
+    structured_only: 496/768
+    structured_only: 512/768
+    structured_only: 528/768
+    structured_only: 544/768
+    structured_only: 560/768
+    structured_only: 576/768
+    structured_only: 592/768
+    structured_only: 608/768
+    structured_only: 624/768
+    structured_only: 640/768
+    structured_only: 656/768
+    structured_only: 672/768
+    structured_only: 688/768
+    structured_only: 704/768
+    structured_only: 720/768
+    structured_only: 736/768
+    structured_only: 752/768
+    structured_only: 768/768
+
+BASELINE family 6-5-3-0
+    structured_only: 16/768
+    structured_only: 32/768
+    structured_only: 48/768
+    structured_only: 64/768
+    structured_only: 80/768
+    structured_only: 96/768
+    structured_only: 112/768
+    structured_only: 128/768
+    structured_only: 144/768
+    structured_only: 160/768
+    structured_only: 176/768
+    structured_only: 192/768
+    structured_only: 208/768
+    structured_only: 224/768
+    structured_only: 240/768
+    structured_only: 256/768
+    structured_only: 272/768
+    structured_only: 288/768
+    structured_only: 304/768
+    structured_only: 320/768
+    structured_only: 336/768
+    structured_only: 352/768
+    structured_only: 368/768
+    structured_only: 384/768
+    structured_only: 400/768
+    structured_only: 416/768
+    structured_only: 432/768
+    structured_only: 448/768
+    structured_only: 464/768
+    structured_only: 480/768
+    structured_only: 496/768
+    structured_only: 512/768
+    structured_only: 528/768
+    structured_only: 544/768
+    structured_only: 560/768
+    structured_only: 576/768
+    structured_only: 592/768
+    structured_only: 608/768
+    structured_only: 624/768
+    structured_only: 640/768
+    structured_only: 656/768
+    structured_only: 672/768
+    structured_only: 688/768
+    structured_only: 704/768
+    structured_only: 720/768
+    structured_only: 736/768
+    structured_only: 752/768
+    structured_only: 768/768
+
+================================================================================================
+BASELINE MATCHING LANDSCAPE
+Pair selection uses baseline metrics ONLY; no perturbation result is visible yet.
+================================================================================================
+
+FAMILY 4-3-1-2
+  candidate counts by ΔLO: {'0.0025': 6, '0.005': 11, '0.01': 14, '0.02': 35, '0.05': 93}
+  selected clean disjoint pairs @ ΔLO<=0.01: 4
+    1. 7c8d1f51bea413a5 vs 3cc91fb522560f9f | ΔLO=0.00021333 ΔP=0.000676pp ΔH=0.00063946
+    2. f4e8cec2c49849e2 vs ef328b56f3b66cbe | ΔLO=0.00039439 ΔP=0.000670pp ΔH=0.00036470
+    3. 05b481a81bed7326 vs 7cb535fd2cfe9ea4 | ΔLO=0.00082566 ΔP=0.001318pp ΔH=0.00093060
+    4. c723a8b73141ff0d vs 636fa49b428df6dc | ΔLO=0.00073683 ΔP=0.000700pp ΔH=0.00143249
+
+FAMILY 5-0-5-4
+  candidate counts by ΔLO: {'0.0025': 13, '0.005': 26, '0.01': 48, '0.02': 77, '0.05': 184}
+  selected clean disjoint pairs @ ΔLO<=0.01: 4
+    1. 87f91b5d276cedda vs c673128bd21faadc | ΔLO=0.00110876 ΔP=0.001710pp ΔH=0.00014313
+    2. db4368b981cf0861 vs 59ad8561fd76f3c6 | ΔLO=0.00107452 ΔP=0.005272pp ΔH=0.00197635
+    3. a40e982a939b7f79 vs 236c6e4406510c1c | ΔLO=0.00081409 ΔP=0.001385pp ΔH=0.00354987
+    4. 39dee2375e8b91b7 vs a30b730ba650ff58 | ΔLO=0.00161568 ΔP=0.001637pp ΔH=0.00076270
+
+FAMILY 5-4-1-2
+  candidate counts by ΔLO: {'0.0025': 9, '0.005': 14, '0.01': 35, '0.02': 78, '0.05': 209}
+  selected clean disjoint pairs @ ΔLO<=0.01: 4
+    1. c5b5d604cf6478ed vs 919a03ad48bf6d38 | ΔLO=0.00014930 ΔP=0.000892pp ΔH=0.00230828
+    2. 9276d77846e00004 vs 4b192bec71cd1f13 | ΔLO=0.00077427 ΔP=0.002599pp ΔH=0.00021508
+    3. 3b50974e69c06920 vs 74d1c286cf4a3c77 | ΔLO=0.00043487 ΔP=0.005184pp ΔH=0.00172732
+    4. ee60756b9496c4c0 vs 9c4d5c41eb0f52eb | ΔLO=0.00116524 ΔP=0.001988pp ΔH=0.00034167
+
+FAMILY 6-1-4-1
+  candidate counts by ΔLO: {'0.0025': 3, '0.005': 6, '0.01': 9, '0.02': 21, '0.05': 54}
+  selected clean disjoint pairs @ ΔLO<=0.01: 4
+    1. 52a7db131c47b720 vs 513a5a8d0aa8b137 | ΔLO=0.00183980 ΔP=0.001943pp ΔH=0.00046928
+    2. 5dc9b1d1a0a1a46f vs aa825a026858ec2b | ΔLO=0.00258169 ΔP=0.001534pp ΔH=0.00034215
+    3. ccc3ebeb593e9a4f vs e475680e61525218 | ΔLO=0.00014725 ΔP=0.001277pp ΔH=0.01748527
+    4. fcff8c38323bd161 vs 6a94a2f10441671f | ΔLO=0.00438043 ΔP=0.004602pp ΔH=0.00060942
+
+FAMILY 6-5-3-0
+  candidate counts by ΔLO: {'0.0025': 12, '0.005': 27, '0.01': 44, '0.02': 89, '0.05': 247}
+  selected clean disjoint pairs @ ΔLO<=0.01: 4
+    1. d5d4abf84febb9c8 vs 2ad9762747173add | ΔLO=0.00037557 ΔP=0.000255pp ΔH=0.00000812
+    2. 621e9c64d66df08e vs bb9b0a5ff8bf6343 | ΔLO=0.00029645 ΔP=0.000180pp ΔH=0.00152992
+    3. b064c31db68d345d vs 6b5dba74bb84f889 | ΔLO=0.00046314 ΔP=0.003847pp ΔH=0.00098630
+    4. 52f87aea5cb5fb05 vs f890898b3f5605d2 | ΔLO=0.00081082 ΔP=0.003105pp ΔH=0.00002377
+
+PROFILE CONDITION repeat_luma
+    repeat_luma: 8/8
+    repeat_luma: 8/8
+    repeat_luma: 8/8
+    repeat_luma: 8/8
+    repeat_luma: 8/8
+
+PROFILE CONDITION repeat_nova
+    repeat_nova: 8/8
+    repeat_nova: 8/8
+    repeat_nova: 8/8
+    repeat_nova: 8/8
+    repeat_nova: 8/8
+
+PROFILE CONDITION repeat_kite
+    repeat_kite: 8/8
+    repeat_kite: 8/8
+    repeat_kite: 8/8
+    repeat_kite: 8/8
+    repeat_kite: 8/8
+
+PROFILE CONDITION repeat_4827
+    repeat_4827: 8/8
+    repeat_4827: 8/8
+    repeat_4827: 8/8
+    repeat_4827: 8/8
+    repeat_4827: 8/8
+
+PROFILE CONDITION copy_luma
+    copy_luma: 8/8
+    copy_luma: 8/8
+    copy_luma: 8/8
+    copy_luma: 8/8
+    copy_luma: 8/8
+
+PROFILE CONDITION copy_nova
+    copy_nova: 8/8
+    copy_nova: 8/8
+    copy_nova: 8/8
+    copy_nova: 8/8
+    copy_nova: 8/8
+
+PROFILE CONDITION copy_kite
+    copy_kite: 8/8
+    copy_kite: 8/8
+    copy_kite: 8/8
+    copy_kite: 8/8
+    copy_kite: 8/8
+
+PROFILE CONDITION copy_4827
+    copy_4827: 8/8
+    copy_4827: 8/8
+    copy_4827: 8/8
+    copy_4827: 8/8
+    copy_4827: 8/8
+
+PROFILE CONDITION write_luma
+    write_luma: 8/8
+    write_luma: 8/8
+    write_luma: 8/8
+    write_luma: 8/8
+    write_luma: 8/8
+
+PROFILE CONDITION write_nova
+    write_nova: 8/8
+    write_nova: 8/8
+    write_nova: 8/8
+    write_nova: 8/8
+    write_nova: 8/8
+
+PROFILE CONDITION write_kite
+    write_kite: 8/8
+    write_kite: 8/8
+    write_kite: 8/8
+    write_kite: 8/8
+    write_kite: 8/8
+
+PROFILE CONDITION write_4827
+    write_4827: 8/8
+    write_4827: 8/8
+    write_4827: 8/8
+    write_4827: 8/8
+    write_4827: 8/8
+
+================================================================================================
+FINAL RANDOM-ORDER VALIDATION
+================================================================================================
+01. family=6-1-4-1  ΔLO=0.00014725  ΔP=0.001277pp  profile_MAE=0.4340  RMSE=0.5845  r=+0.2840  flips=0/0
+02. family=5-4-1-2  ΔLO=0.00014930  ΔP=0.000892pp  profile_MAE=2.8936  RMSE=3.0279  r=+0.0690  flips=0/0
+03. family=4-3-1-2  ΔLO=0.00021333  ΔP=0.000676pp  profile_MAE=0.7952  RMSE=0.9234  r=+0.8912  flips=0/0
+04. family=6-5-3-0  ΔLO=0.00029645  ΔP=0.000180pp  profile_MAE=0.6180  RMSE=0.7056  r=+0.8638  flips=0/0
+05. family=6-5-3-0  ΔLO=0.00037557  ΔP=0.000255pp  profile_MAE=0.5706  RMSE=0.6397  r=+0.8146  flips=0/0
+06. family=4-3-1-2  ΔLO=0.00039439  ΔP=0.000670pp  profile_MAE=2.9925  RMSE=3.2215  r=+0.4033  flips=0/0
+07. family=5-4-1-2  ΔLO=0.00043487  ΔP=0.005184pp  profile_MAE=1.9675  RMSE=2.0172  r=+0.7664  flips=0/0
+08. family=6-5-3-0  ΔLO=0.00046314  ΔP=0.003847pp  profile_MAE=3.2957  RMSE=3.5387  r=-0.1463  flips=12/0
+09. family=4-3-1-2  ΔLO=0.00073683  ΔP=0.000700pp  profile_MAE=1.4030  RMSE=1.6856  r=-0.0858  flips=7/5
+10. family=5-4-1-2  ΔLO=0.00077427  ΔP=0.002599pp  profile_MAE=2.2496  RMSE=2.6547  r=-0.6437  flips=0/0
+11. family=6-5-3-0  ΔLO=0.00081082  ΔP=0.003105pp  profile_MAE=6.5129  RMSE=6.5462  r=+0.8657  flips=12/1
+12. family=5-0-5-4  ΔLO=0.00081409  ΔP=0.001385pp  profile_MAE=7.0099  RMSE=7.0513  r=+0.5208  flips=0/12
+13. family=4-3-1-2  ΔLO=0.00082566  ΔP=0.001318pp  profile_MAE=2.7326  RMSE=3.0732  r=-0.4019  flips=0/0
+14. family=5-0-5-4  ΔLO=0.00107452  ΔP=0.005272pp  profile_MAE=10.0046  RMSE=10.0474  r=+0.1614  flips=12/0
+15. family=5-0-5-4  ΔLO=0.00110876  ΔP=0.001710pp  profile_MAE=3.4683  RMSE=3.6817  r=-0.6269  flips=0/0
+16. family=5-4-1-2  ΔLO=0.00116524  ΔP=0.001988pp  profile_MAE=0.6470  RMSE=0.8310  r=+0.1845  flips=0/0
+17. family=5-0-5-4  ΔLO=0.00161568  ΔP=0.001637pp  profile_MAE=2.3461  RMSE=2.5856  r=-0.1632  flips=0/0
+18. family=6-1-4-1  ΔLO=0.00183980  ΔP=0.001943pp  profile_MAE=2.1382  RMSE=2.2001  r=+0.3252  flips=0/0
+19. family=6-1-4-1  ΔLO=0.00258169  ΔP=0.001534pp  profile_MAE=0.8063  RMSE=1.0423  r=-0.1640  flips=0/0
+20. family=6-1-4-1  ΔLO=0.00438043  ΔP=0.004602pp  profile_MAE=5.6070  RMSE=5.6584  r=-0.1261  flips=0/0
+
+AGGREGATE
+  N pairs: 20
+  median baseline ΔLO: 0.00079255
+  mean profile MAE:    2.9246
+  median profile MAE:  2.2979
+  max profile MAE:     10.0046
+  corr(ΔLO, MAE):      +0.2318
+
+Saved:
+  random_order_validation/baselines.jsonl
+  random_order_validation/selected_pairs.json
+  random_order_validation/profiles.jsonl
+  random_order_validation/final_summary.json
