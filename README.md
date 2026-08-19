@@ -602,7 +602,6 @@ README.md
 LICENSE
 requirements.txt
 experiment.py
-SHA256SUMS.txt
 .gitignore
 
 results/
@@ -622,8 +621,6 @@ results/
 `final_summary.json` contains the final pair-level metrics and structural audits.
 
 `run_output.txt` is the raw terminal output from the included run.
-
-`SHA256SUMS.txt` contains file hashes for simple integrity checking.
 
 ---
 
