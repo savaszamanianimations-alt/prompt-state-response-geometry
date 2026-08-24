@@ -1,3 +1,5 @@
 # Install PyTorch separately for your hardware/accelerator.
 # Reported run: torch 2.12.0+rocm7.14.0
+
 transformers==5.14.1
+numpy
