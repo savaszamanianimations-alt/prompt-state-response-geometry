@@ -1,0 +1,47 @@
+{
+  "model": "ibm-granite/granite-4.1-3b",
+  "dtype": "float32",
+  "attn_implementation": "eager",
+  "use_cache": false,
+  "n_states": 40,
+  "old_geometry_coordinates": 12,
+  "system_prompts": [
+    "Follow the user's requested output format exactly.",
+    "Answer concisely and literally. Do not add explanations.",
+    "Use only the evidence provided in the user's message.",
+    "Treat this as a deterministic text-completion task and be precise.",
+    "Prioritize the explicit records in the user message over outside knowledge.",
+    "Return only the requested fields, with no commentary.",
+    "Read the evidence carefully and complete the task exactly as written.",
+    "Be consistent, precise, and faithful to the user's stated format."
+  ],
+  "system_geometry_coordinates": 8,
+  "baseline_recheck": {
+    "median_abs_logodds_diff": 0.00010992596125447562,
+    "max_abs_logodds_diff": 0.000689397583450102
+  },
+  "primary_rsa": {
+    "n_within_family_distances": 140,
+    "pearson_r": 0.3561014336775724,
+    "spearman_rho": 0.33240034112527606,
+    "perm_p_r_one_sided": 0.00019998000199980003,
+    "perm_p_rho_one_sided": 0.00039996000399960006,
+    "null_mean": 0.0009032073194516965,
+    "null_sd": 0.09834287460570923,
+    "z_vs_null": 3.611834896856878
+  },
+  "nearest_neighbor_transfer": {
+    "median_rank": 6.0,
+    "mean_rank": 9.375,
+    "median_normalized_percentile": 0.13157894736842105,
+    "fraction_top5": 0.425,
+    "fraction_top10": 0.625
+  },
+  "susceptibility_transfer": {
+    "pearson_r_family_zscored": 0.08960640619778848,
+    "spearman_rho_family_zscored": 0.02045028142589118,
+    "perm_p_r_one_sided": 0.30456954304569545
+  },
+  "matched_pair_old_vs_system_r": 0.38069853045880103,
+  "verdict": "MIXED"
+}
