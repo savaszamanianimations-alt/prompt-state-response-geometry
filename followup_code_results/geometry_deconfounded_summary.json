@@ -1,0 +1,136 @@
+{
+  "within_family_delta_geometry": {
+    "repeat_vs_copy": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.8867334679183496,
+      "spearman_rho_family_zscored": 0.8306750344405327,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": -0.0012221094673275522,
+      "null_sd": 0.12404182797504547,
+      "z": 7.158517347586288
+    },
+    "repeat_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.9220883133221942,
+      "spearman_rho_family_zscored": 0.8915965100260217,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": 0.00041993402712890476,
+      "null_sd": 0.12492375859041252,
+      "z": 7.377847014009073
+    },
+    "copy_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.9487405048999763,
+      "spearman_rho_family_zscored": 0.9162406245216592,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": 0.002467850838085748,
+      "null_sd": 0.12574811143014772,
+      "z": 7.525144062203583
+    }
+  },
+  "within_family_centered_geometry": {
+    "repeat_vs_copy": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.5144302173531531,
+      "spearman_rho_family_zscored": 0.5299424897771752,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": 0.00016302803137429044,
+      "null_sd": 0.10004257115999095,
+      "z": 5.14048352975003
+    },
+    "repeat_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.25616481624551396,
+      "spearman_rho_family_zscored": 0.2819531608755549,
+      "perm_p_r": 0.0040995900409959,
+      "perm_p_rho": 0.0014998500149985001,
+      "null_mean": -0.0007750037625471443,
+      "null_sd": 0.09251871917536811,
+      "z": 2.777165770324109
+    },
+    "copy_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.42534340789585134,
+      "spearman_rho_family_zscored": 0.4608733681747611,
+      "perm_p_r": 0.00019998000199980003,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": -0.00010227015792920167,
+      "null_sd": 0.10363716550357119,
+      "z": 4.105145832448692
+    }
+  },
+  "within_family_raw_perturbed_geometry": {
+    "repeat_vs_copy": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.8822997696314957,
+      "spearman_rho_family_zscored": 0.8381535501082417,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": -0.0004611252033520954,
+      "null_sd": 0.11552987093654904,
+      "z": 7.6409753397861495
+    },
+    "repeat_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.9076027371080365,
+      "spearman_rho_family_zscored": 0.873499376790361,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": 0.0007900990353901153,
+      "null_sd": 0.11863300866843639,
+      "z": 7.6438475956305565
+    },
+    "copy_vs_write": {
+      "n_within_family_distances": 140,
+      "pearson_r_family_zscored": 0.9206008919941376,
+      "spearman_rho_family_zscored": 0.8832520609652096,
+      "perm_p_r": 9.999000099990002e-05,
+      "perm_p_rho": 9.999000099990002e-05,
+      "null_mean": 0.0007903601176405514,
+      "null_sd": 0.1185751650983826,
+      "z": 7.757193769144864
+    }
+  },
+  "partial_corr_controlling_baseline_distance": {
+    "repeat_vs_copy": {
+      "partial_r": 0.8853870927905434,
+      "perm_p_one_sided": 9.999000099990002e-05
+    },
+    "repeat_vs_write": {
+      "partial_r": 0.9211801871949192,
+      "perm_p_one_sided": 9.999000099990002e-05
+    },
+    "copy_vs_write": {
+      "partial_r": 0.9481194421600476,
+      "perm_p_one_sided": 9.999000099990002e-05
+    }
+  },
+  "matched_pairs_family_deconfounded": {
+    "repeat_vs_copy": {
+      "within_family_demeaned_r": 0.8623801097910571,
+      "cluster_bootstrap_95_ci": [
+        0.7159417112626805,
+        0.9687544647993012
+      ]
+    },
+    "repeat_vs_write": {
+      "within_family_demeaned_r": 0.9519457329910725,
+      "cluster_bootstrap_95_ci": [
+        0.9079957321085461,
+        0.9826800193596771
+      ]
+    },
+    "copy_vs_write": {
+      "within_family_demeaned_r": 0.8954336311819657,
+      "cluster_bootstrap_95_ci": [
+        0.7949482514582668,
+        0.9852275843612626
+      ]
+    }
+  },
+  "verdict": "SURVIVES_BASELINE_AND_FAMILY_DECONFOUNDING"
+}
