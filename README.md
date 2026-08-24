@@ -8,6 +8,21 @@ It is a small hobby project that started with a simple question:
 
 A few days later, we ended up somewhere we did not expect.
 
+## Aug. 24 follow-up controls
+
+After publishing the original experiment, we continued trying to falsify the observation.
+
+The effect survived:
+- complete next-token distribution matching,
+- exact repeatability checks,
+- baseline-offset and evidence-family deconfounding.
+
+A held-out system-prompt intervention showed weaker but non-zero transfer from the original prompt-response geometry.
+
+These follow-ups were exploratory and adaptively chosen after observing earlier results. We do not treat their permutation p-values as preregistered confirmatory evidence.
+
+See `followup_code/` and `followup_code_results/`.
+
 The main observation is:
 
 > **Nearly identical local confidence does not imply nearly identical perturbational response geometry.**
