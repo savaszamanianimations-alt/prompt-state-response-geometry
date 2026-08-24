@@ -1,0 +1,1771 @@
+{
+  "model": "ibm-granite/granite-4.1-3b",
+  "dtype": "float32",
+  "attn_implementation": "eager",
+  "use_cache": false,
+  "pairs_path": "full_distribution_validation/selected_pairs.json",
+  "n_pairs": 20,
+  "n_states": 40,
+  "repeats": 3,
+  "same_state_repeatability": {
+    "median_baseline_abs_logodds_diff": 0.0,
+    "max_baseline_abs_logodds_diff": 0.0,
+    "median_profile_mae": 0.0,
+    "mean_profile_mae": 0.0,
+    "max_profile_mae": 0.0,
+    "median_profile_rmse": 0.0,
+    "max_single_condition_abs_drift": 0.0
+  },
+  "matched_pairs": {
+    "median_profile_mae": 2.217854623298092,
+    "mean_profile_mae": 3.292549508126671,
+    "max_profile_mae": 8.817666506387985
+  },
+  "signal_to_repeat_noise_ratio": Infinity,
+  "median_pair_mae_run_to_run_spread": 0.0,
+  "max_pair_mae_run_to_run_spread": 0.0,
+  "repeat_details": [
+    {
+      "order_hash": "1f49aecc4618b29d",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1f49aecc4618b29d",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1f49aecc4618b29d",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "b8ddf4f5d267b699",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "b8ddf4f5d267b699",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "b8ddf4f5d267b699",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c742596aeec2fa5c",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c742596aeec2fa5c",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c742596aeec2fa5c",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1e7373ba652a42a1",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1e7373ba652a42a1",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1e7373ba652a42a1",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d7b31c9e20698f7e",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d7b31c9e20698f7e",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d7b31c9e20698f7e",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "636fa49b428df6dc",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "636fa49b428df6dc",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "636fa49b428df6dc",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f4e8cec2c49849e2",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f4e8cec2c49849e2",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f4e8cec2c49849e2",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ef328b56f3b66cbe",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ef328b56f3b66cbe",
+      "family": "4-3-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ef328b56f3b66cbe",
+      "family": "4-3-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "9c7f68506d3d1c13",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "9c7f68506d3d1c13",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "9c7f68506d3d1c13",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "e325ea37d4a8aef0",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "e325ea37d4a8aef0",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "e325ea37d4a8aef0",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d3204975f17becf5",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d3204975f17becf5",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d3204975f17becf5",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3c0e363cedd48a31",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3c0e363cedd48a31",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3c0e363cedd48a31",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "39dee2375e8b91b7",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "39dee2375e8b91b7",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "39dee2375e8b91b7",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "a30b730ba650ff58",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "a30b730ba650ff58",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "a30b730ba650ff58",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "351f03f2a8594af1",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "351f03f2a8594af1",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "351f03f2a8594af1",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "131d145ddd729eff",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "131d145ddd729eff",
+      "family": "5-0-5-4",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "131d145ddd729eff",
+      "family": "5-0-5-4",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "4f26247d18f7c419",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "4f26247d18f7c419",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "4f26247d18f7c419",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3b9ababfc47a8816",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3b9ababfc47a8816",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "3b9ababfc47a8816",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ced833c4fe63c1e8",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ced833c4fe63c1e8",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "ced833c4fe63c1e8",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6422f07a43f4ae32",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6422f07a43f4ae32",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6422f07a43f4ae32",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1dfdcf4c105a9e81",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1dfdcf4c105a9e81",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "1dfdcf4c105a9e81",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "631cd6e1f080cd23",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "631cd6e1f080cd23",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "631cd6e1f080cd23",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6f2f9143abb393e2",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6f2f9143abb393e2",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6f2f9143abb393e2",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "220f6bd6fa290cb4",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "220f6bd6fa290cb4",
+      "family": "5-4-1-2",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "220f6bd6fa290cb4",
+      "family": "5-4-1-2",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "513a5a8d0aa8b137",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "513a5a8d0aa8b137",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "513a5a8d0aa8b137",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "fcff8c38323bd161",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "fcff8c38323bd161",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "fcff8c38323bd161",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f54f6b2bc1afb5e0",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f54f6b2bc1afb5e0",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "f54f6b2bc1afb5e0",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8e7ee7a33f11e13",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8e7ee7a33f11e13",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8e7ee7a33f11e13",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "52a7db131c47b720",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "52a7db131c47b720",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "52a7db131c47b720",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6a94a2f10441671f",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6a94a2f10441671f",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "6a94a2f10441671f",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "5dc9b1d1a0a1a46f",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "5dc9b1d1a0a1a46f",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "5dc9b1d1a0a1a46f",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "aa825a026858ec2b",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "aa825a026858ec2b",
+      "family": "6-1-4-1",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "aa825a026858ec2b",
+      "family": "6-1-4-1",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d5d4abf84febb9c8",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d5d4abf84febb9c8",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "d5d4abf84febb9c8",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2ad9762747173add",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2ad9762747173add",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2ad9762747173add",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "48ffc9495812b577",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "48ffc9495812b577",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "48ffc9495812b577",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "dc89b4caa5ae0762",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "dc89b4caa5ae0762",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "dc89b4caa5ae0762",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8ca76137910efca",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8ca76137910efca",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "c8ca76137910efca",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "81b1f4af3e08a73a",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "81b1f4af3e08a73a",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "81b1f4af3e08a73a",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "8f9d828b841b39b6",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "8f9d828b841b39b6",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "8f9d828b841b39b6",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2533103354016ee3",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 2,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2533103354016ee3",
+      "family": "6-5-3-0",
+      "run_a": 1,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    },
+    {
+      "order_hash": "2533103354016ee3",
+      "family": "6-5-3-0",
+      "run_a": 2,
+      "run_b": 3,
+      "profile_mae": 0.0,
+      "profile_rmse": 0.0,
+      "profile_max_abs": 0.0,
+      "baseline_logodds_abs_diff": 0.0
+    }
+  ],
+  "pair_details": [
+    {
+      "run": 1,
+      "pair": 1,
+      "family": "4-3-1-2",
+      "a_hash": "1f49aecc4618b29d",
+      "b_hash": "b8ddf4f5d267b699",
+      "profile_mae": 3.346508860721133,
+      "profile_rmse": 3.460195208642186
+    },
+    {
+      "run": 1,
+      "pair": 2,
+      "family": "4-3-1-2",
+      "a_hash": "c742596aeec2fa5c",
+      "b_hash": "1e7373ba652a42a1",
+      "profile_mae": 5.265429536953686,
+      "profile_rmse": 5.373239577039418
+    },
+    {
+      "run": 1,
+      "pair": 3,
+      "family": "4-3-1-2",
+      "a_hash": "d7b31c9e20698f7e",
+      "b_hash": "636fa49b428df6dc",
+      "profile_mae": 3.328595869154466,
+      "profile_rmse": 3.6222036849478836
+    },
+    {
+      "run": 1,
+      "pair": 4,
+      "family": "4-3-1-2",
+      "a_hash": "f4e8cec2c49849e2",
+      "b_hash": "ef328b56f3b66cbe",
+      "profile_mae": 2.992642813625006,
+      "profile_rmse": 3.221622375512461
+    },
+    {
+      "run": 1,
+      "pair": 5,
+      "family": "5-0-5-4",
+      "a_hash": "9c7f68506d3d1c13",
+      "b_hash": "e325ea37d4a8aef0",
+      "profile_mae": 1.4845123358375407,
+      "profile_rmse": 1.702963002767936
+    },
+    {
+      "run": 1,
+      "pair": 6,
+      "family": "5-0-5-4",
+      "a_hash": "d3204975f17becf5",
+      "b_hash": "3c0e363cedd48a31",
+      "profile_mae": 2.4082365809218444,
+      "profile_rmse": 2.6758390664006555
+    },
+    {
+      "run": 1,
+      "pair": 7,
+      "family": "5-0-5-4",
+      "a_hash": "39dee2375e8b91b7",
+      "b_hash": "a30b730ba650ff58",
+      "profile_mae": 2.346434199830185,
+      "profile_rmse": 2.58583567782559
+    },
+    {
+      "run": 1,
+      "pair": 8,
+      "family": "5-0-5-4",
+      "a_hash": "351f03f2a8594af1",
+      "b_hash": "131d145ddd729eff",
+      "profile_mae": 8.202412269885803,
+      "profile_rmse": 8.246446355082234
+    },
+    {
+      "run": 1,
+      "pair": 9,
+      "family": "5-4-1-2",
+      "a_hash": "4f26247d18f7c419",
+      "b_hash": "3b9ababfc47a8816",
+      "profile_mae": 1.8284796994322992,
+      "profile_rmse": 1.8800781373169493
+    },
+    {
+      "run": 1,
+      "pair": 10,
+      "family": "5-4-1-2",
+      "a_hash": "ced833c4fe63c1e8",
+      "b_hash": "6422f07a43f4ae32",
+      "profile_mae": 2.01931041849295,
+      "profile_rmse": 2.0853222948492656
+    },
+    {
+      "run": 1,
+      "pair": 11,
+      "family": "5-4-1-2",
+      "a_hash": "1dfdcf4c105a9e81",
+      "b_hash": "631cd6e1f080cd23",
+      "profile_mae": 2.0892750467659984,
+      "profile_rmse": 2.291358537402724
+    },
+    {
+      "run": 1,
+      "pair": 12,
+      "family": "5-4-1-2",
+      "a_hash": "6f2f9143abb393e2",
+      "b_hash": "220f6bd6fa290cb4",
+      "profile_mae": 0.9190837879299588,
+      "profile_rmse": 1.1955284167677294
+    },
+    {
+      "run": 1,
+      "pair": 13,
+      "family": "6-1-4-1",
+      "a_hash": "513a5a8d0aa8b137",
+      "b_hash": "fcff8c38323bd161",
+      "profile_mae": 2.036084942177148,
+      "profile_rmse": 2.0574814043683984
+    },
+    {
+      "run": 1,
+      "pair": 14,
+      "family": "6-1-4-1",
+      "a_hash": "f54f6b2bc1afb5e0",
+      "b_hash": "c8e7ee7a33f11e13",
+      "profile_mae": 8.817666506387985,
+      "profile_rmse": 8.86619734641521
+    },
+    {
+      "run": 1,
+      "pair": 15,
+      "family": "6-1-4-1",
+      "a_hash": "52a7db131c47b720",
+      "b_hash": "6a94a2f10441671f",
+      "profile_mae": 5.708646587929291,
+      "profile_rmse": 5.772339028814412
+    },
+    {
+      "run": 1,
+      "pair": 16,
+      "family": "6-1-4-1",
+      "a_hash": "5dc9b1d1a0a1a46f",
+      "b_hash": "aa825a026858ec2b",
+      "profile_mae": 0.8065929013492757,
+      "profile_rmse": 1.0425069200301227
+    },
+    {
+      "run": 1,
+      "pair": 17,
+      "family": "6-5-3-0",
+      "a_hash": "d5d4abf84febb9c8",
+      "b_hash": "2ad9762747173add",
+      "profile_mae": 0.5703843249199009,
+      "profile_rmse": 0.6395419512831239
+    },
+    {
+      "run": 1,
+      "pair": 18,
+      "family": "6-5-3-0",
+      "a_hash": "48ffc9495812b577",
+      "b_hash": "dc89b4caa5ae0762",
+      "profile_mae": 1.2265286013141765,
+      "profile_rmse": 1.4279157435770091
+    },
+    {
+      "run": 1,
+      "pair": 19,
+      "family": "6-5-3-0",
+      "a_hash": "c8ca76137910efca",
+      "b_hash": "81b1f4af3e08a73a",
+      "profile_mae": 2.0042806134275053,
+      "profile_rmse": 2.403839455439287
+    },
+    {
+      "run": 1,
+      "pair": 20,
+      "family": "6-5-3-0",
+      "a_hash": "8f9d828b841b39b6",
+      "b_hash": "2533103354016ee3",
+      "profile_mae": 8.449884265477271,
+      "profile_rmse": 8.599264774919142
+    },
+    {
+      "run": 2,
+      "pair": 1,
+      "family": "4-3-1-2",
+      "a_hash": "1f49aecc4618b29d",
+      "b_hash": "b8ddf4f5d267b699",
+      "profile_mae": 3.346508860721133,
+      "profile_rmse": 3.460195208642186
+    },
+    {
+      "run": 2,
+      "pair": 2,
+      "family": "4-3-1-2",
+      "a_hash": "c742596aeec2fa5c",
+      "b_hash": "1e7373ba652a42a1",
+      "profile_mae": 5.265429536953686,
+      "profile_rmse": 5.373239577039418
+    },
+    {
+      "run": 2,
+      "pair": 3,
+      "family": "4-3-1-2",
+      "a_hash": "d7b31c9e20698f7e",
+      "b_hash": "636fa49b428df6dc",
+      "profile_mae": 3.328595869154466,
+      "profile_rmse": 3.6222036849478836
+    },
+    {
+      "run": 2,
+      "pair": 4,
+      "family": "4-3-1-2",
+      "a_hash": "f4e8cec2c49849e2",
+      "b_hash": "ef328b56f3b66cbe",
+      "profile_mae": 2.992642813625006,
+      "profile_rmse": 3.221622375512461
+    },
+    {
+      "run": 2,
+      "pair": 5,
+      "family": "5-0-5-4",
+      "a_hash": "9c7f68506d3d1c13",
+      "b_hash": "e325ea37d4a8aef0",
+      "profile_mae": 1.4845123358375407,
+      "profile_rmse": 1.702963002767936
+    },
+    {
+      "run": 2,
+      "pair": 6,
+      "family": "5-0-5-4",
+      "a_hash": "d3204975f17becf5",
+      "b_hash": "3c0e363cedd48a31",
+      "profile_mae": 2.4082365809218444,
+      "profile_rmse": 2.6758390664006555
+    },
+    {
+      "run": 2,
+      "pair": 7,
+      "family": "5-0-5-4",
+      "a_hash": "39dee2375e8b91b7",
+      "b_hash": "a30b730ba650ff58",
+      "profile_mae": 2.346434199830185,
+      "profile_rmse": 2.58583567782559
+    },
+    {
+      "run": 2,
+      "pair": 8,
+      "family": "5-0-5-4",
+      "a_hash": "351f03f2a8594af1",
+      "b_hash": "131d145ddd729eff",
+      "profile_mae": 8.202412269885803,
+      "profile_rmse": 8.246446355082234
+    },
+    {
+      "run": 2,
+      "pair": 9,
+      "family": "5-4-1-2",
+      "a_hash": "4f26247d18f7c419",
+      "b_hash": "3b9ababfc47a8816",
+      "profile_mae": 1.8284796994322992,
+      "profile_rmse": 1.8800781373169493
+    },
+    {
+      "run": 2,
+      "pair": 10,
+      "family": "5-4-1-2",
+      "a_hash": "ced833c4fe63c1e8",
+      "b_hash": "6422f07a43f4ae32",
+      "profile_mae": 2.01931041849295,
+      "profile_rmse": 2.0853222948492656
+    },
+    {
+      "run": 2,
+      "pair": 11,
+      "family": "5-4-1-2",
+      "a_hash": "1dfdcf4c105a9e81",
+      "b_hash": "631cd6e1f080cd23",
+      "profile_mae": 2.0892750467659984,
+      "profile_rmse": 2.291358537402724
+    },
+    {
+      "run": 2,
+      "pair": 12,
+      "family": "5-4-1-2",
+      "a_hash": "6f2f9143abb393e2",
+      "b_hash": "220f6bd6fa290cb4",
+      "profile_mae": 0.9190837879299588,
+      "profile_rmse": 1.1955284167677294
+    },
+    {
+      "run": 2,
+      "pair": 13,
+      "family": "6-1-4-1",
+      "a_hash": "513a5a8d0aa8b137",
+      "b_hash": "fcff8c38323bd161",
+      "profile_mae": 2.036084942177148,
+      "profile_rmse": 2.0574814043683984
+    },
+    {
+      "run": 2,
+      "pair": 14,
+      "family": "6-1-4-1",
+      "a_hash": "f54f6b2bc1afb5e0",
+      "b_hash": "c8e7ee7a33f11e13",
+      "profile_mae": 8.817666506387985,
+      "profile_rmse": 8.86619734641521
+    },
+    {
+      "run": 2,
+      "pair": 15,
+      "family": "6-1-4-1",
+      "a_hash": "52a7db131c47b720",
+      "b_hash": "6a94a2f10441671f",
+      "profile_mae": 5.708646587929291,
+      "profile_rmse": 5.772339028814412
+    },
+    {
+      "run": 2,
+      "pair": 16,
+      "family": "6-1-4-1",
+      "a_hash": "5dc9b1d1a0a1a46f",
+      "b_hash": "aa825a026858ec2b",
+      "profile_mae": 0.8065929013492757,
+      "profile_rmse": 1.0425069200301227
+    },
+    {
+      "run": 2,
+      "pair": 17,
+      "family": "6-5-3-0",
+      "a_hash": "d5d4abf84febb9c8",
+      "b_hash": "2ad9762747173add",
+      "profile_mae": 0.5703843249199009,
+      "profile_rmse": 0.6395419512831239
+    },
+    {
+      "run": 2,
+      "pair": 18,
+      "family": "6-5-3-0",
+      "a_hash": "48ffc9495812b577",
+      "b_hash": "dc89b4caa5ae0762",
+      "profile_mae": 1.2265286013141765,
+      "profile_rmse": 1.4279157435770091
+    },
+    {
+      "run": 2,
+      "pair": 19,
+      "family": "6-5-3-0",
+      "a_hash": "c8ca76137910efca",
+      "b_hash": "81b1f4af3e08a73a",
+      "profile_mae": 2.0042806134275053,
+      "profile_rmse": 2.403839455439287
+    },
+    {
+      "run": 2,
+      "pair": 20,
+      "family": "6-5-3-0",
+      "a_hash": "8f9d828b841b39b6",
+      "b_hash": "2533103354016ee3",
+      "profile_mae": 8.449884265477271,
+      "profile_rmse": 8.599264774919142
+    },
+    {
+      "run": 3,
+      "pair": 1,
+      "family": "4-3-1-2",
+      "a_hash": "1f49aecc4618b29d",
+      "b_hash": "b8ddf4f5d267b699",
+      "profile_mae": 3.346508860721133,
+      "profile_rmse": 3.460195208642186
+    },
+    {
+      "run": 3,
+      "pair": 2,
+      "family": "4-3-1-2",
+      "a_hash": "c742596aeec2fa5c",
+      "b_hash": "1e7373ba652a42a1",
+      "profile_mae": 5.265429536953686,
+      "profile_rmse": 5.373239577039418
+    },
+    {
+      "run": 3,
+      "pair": 3,
+      "family": "4-3-1-2",
+      "a_hash": "d7b31c9e20698f7e",
+      "b_hash": "636fa49b428df6dc",
+      "profile_mae": 3.328595869154466,
+      "profile_rmse": 3.6222036849478836
+    },
+    {
+      "run": 3,
+      "pair": 4,
+      "family": "4-3-1-2",
+      "a_hash": "f4e8cec2c49849e2",
+      "b_hash": "ef328b56f3b66cbe",
+      "profile_mae": 2.992642813625006,
+      "profile_rmse": 3.221622375512461
+    },
+    {
+      "run": 3,
+      "pair": 5,
+      "family": "5-0-5-4",
+      "a_hash": "9c7f68506d3d1c13",
+      "b_hash": "e325ea37d4a8aef0",
+      "profile_mae": 1.4845123358375407,
+      "profile_rmse": 1.702963002767936
+    },
+    {
+      "run": 3,
+      "pair": 6,
+      "family": "5-0-5-4",
+      "a_hash": "d3204975f17becf5",
+      "b_hash": "3c0e363cedd48a31",
+      "profile_mae": 2.4082365809218444,
+      "profile_rmse": 2.6758390664006555
+    },
+    {
+      "run": 3,
+      "pair": 7,
+      "family": "5-0-5-4",
+      "a_hash": "39dee2375e8b91b7",
+      "b_hash": "a30b730ba650ff58",
+      "profile_mae": 2.346434199830185,
+      "profile_rmse": 2.58583567782559
+    },
+    {
+      "run": 3,
+      "pair": 8,
+      "family": "5-0-5-4",
+      "a_hash": "351f03f2a8594af1",
+      "b_hash": "131d145ddd729eff",
+      "profile_mae": 8.202412269885803,
+      "profile_rmse": 8.246446355082234
+    },
+    {
+      "run": 3,
+      "pair": 9,
+      "family": "5-4-1-2",
+      "a_hash": "4f26247d18f7c419",
+      "b_hash": "3b9ababfc47a8816",
+      "profile_mae": 1.8284796994322992,
+      "profile_rmse": 1.8800781373169493
+    },
+    {
+      "run": 3,
+      "pair": 10,
+      "family": "5-4-1-2",
+      "a_hash": "ced833c4fe63c1e8",
+      "b_hash": "6422f07a43f4ae32",
+      "profile_mae": 2.01931041849295,
+      "profile_rmse": 2.0853222948492656
+    },
+    {
+      "run": 3,
+      "pair": 11,
+      "family": "5-4-1-2",
+      "a_hash": "1dfdcf4c105a9e81",
+      "b_hash": "631cd6e1f080cd23",
+      "profile_mae": 2.0892750467659984,
+      "profile_rmse": 2.291358537402724
+    },
+    {
+      "run": 3,
+      "pair": 12,
+      "family": "5-4-1-2",
+      "a_hash": "6f2f9143abb393e2",
+      "b_hash": "220f6bd6fa290cb4",
+      "profile_mae": 0.9190837879299588,
+      "profile_rmse": 1.1955284167677294
+    },
+    {
+      "run": 3,
+      "pair": 13,
+      "family": "6-1-4-1",
+      "a_hash": "513a5a8d0aa8b137",
+      "b_hash": "fcff8c38323bd161",
+      "profile_mae": 2.036084942177148,
+      "profile_rmse": 2.0574814043683984
+    },
+    {
+      "run": 3,
+      "pair": 14,
+      "family": "6-1-4-1",
+      "a_hash": "f54f6b2bc1afb5e0",
+      "b_hash": "c8e7ee7a33f11e13",
+      "profile_mae": 8.817666506387985,
+      "profile_rmse": 8.86619734641521
+    },
+    {
+      "run": 3,
+      "pair": 15,
+      "family": "6-1-4-1",
+      "a_hash": "52a7db131c47b720",
+      "b_hash": "6a94a2f10441671f",
+      "profile_mae": 5.708646587929291,
+      "profile_rmse": 5.772339028814412
+    },
+    {
+      "run": 3,
+      "pair": 16,
+      "family": "6-1-4-1",
+      "a_hash": "5dc9b1d1a0a1a46f",
+      "b_hash": "aa825a026858ec2b",
+      "profile_mae": 0.8065929013492757,
+      "profile_rmse": 1.0425069200301227
+    },
+    {
+      "run": 3,
+      "pair": 17,
+      "family": "6-5-3-0",
+      "a_hash": "d5d4abf84febb9c8",
+      "b_hash": "2ad9762747173add",
+      "profile_mae": 0.5703843249199009,
+      "profile_rmse": 0.6395419512831239
+    },
+    {
+      "run": 3,
+      "pair": 18,
+      "family": "6-5-3-0",
+      "a_hash": "48ffc9495812b577",
+      "b_hash": "dc89b4caa5ae0762",
+      "profile_mae": 1.2265286013141765,
+      "profile_rmse": 1.4279157435770091
+    },
+    {
+      "run": 3,
+      "pair": 19,
+      "family": "6-5-3-0",
+      "a_hash": "c8ca76137910efca",
+      "b_hash": "81b1f4af3e08a73a",
+      "profile_mae": 2.0042806134275053,
+      "profile_rmse": 2.403839455439287
+    },
+    {
+      "run": 3,
+      "pair": 20,
+      "family": "6-5-3-0",
+      "a_hash": "8f9d828b841b39b6",
+      "b_hash": "2533103354016ee3",
+      "profile_mae": 8.449884265477271,
+      "profile_rmse": 8.599264774919142
+    }
+  ]
+}
